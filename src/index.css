@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 30px;
+  background: #2b2a2a;
+  color: white;
+  text-align: center;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+}
+.profile-pic {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 149, 255, 0.602);
+}
+.profile-pic:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+.btn {
+  margin: 20px;
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.email-btn {
+  background-color: #f0f0f0;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.email-btn:hover {
+  box-shadow: 0 0 15px #ffffff;
+  background-color: #ffffff88;
+}
+.linkedin-btn {
+  margin: 20px;
+  background-color: #2355fb;
+}
+.linkedin-btn:hover {
+  box-shadow: 0 0 15px #2355fb;
+  background-color: #2355fbb4;
+}
+
+.btn img {
+  width: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+p {
+  font-weight: 200;
+  font-size: 95%;
+  padding: 10px;
+}
+h2 {
+  font-weight: 500;
+}
+h4 {
+  font-weight: 500;
+}
+footer {
+  background: #000;
+  border-radius: 20px;
+}
+footer > .btn {
+  margin: 5px;
+}
+.github-btn:hover {
+  box-shadow: 0 0 15px #f8f7f7;
+  background-color: #ffffff88;
+}
+.whatsapp-btn:hover {
+  box-shadow: 0 0 15px #25d366;
+  background-color: #25d36688;
+}
+.x-btn:hover {
+  box-shadow: 0 0 15px #fcfbfb;
+  background-color: #ffffff88;
+}
+.insta-btn:hover {
+  box-shadow: 0 0 15px #e1306c;
+  background-color: #e1306c88;
+}
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: 10px;
+  }
+  .profile-pic {
+    width: 100%;
+  }
+}
