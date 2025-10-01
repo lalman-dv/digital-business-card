@@ -11,9 +11,9 @@ function Info() {
         <h4>Frontend Developer(React)</h4>
         <button className="btn email-btn" title="Send Email">
           {" "}
-          <img src="./src/assets/email.svg" />
+          <img src="./src/assets/email.svg" alt="email"/>
         </button>
-        <button className="btn linkedin-btn">
+        <button className="btn linkedin-btn" alt="linkedin" >
           {" "}
           <img src="./src/assets/linkedin.svg" />
         </button>
